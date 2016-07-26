@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "AppDelegate+AdvertiseViewController.h"
+#import "AppDelegate+RootViewController.h"
+#import "MainTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [NSThread sleepForTimeInterval:2.0];//设置启动页面时间
+    [self setAppWindows];
+    [self setRootViewCotroller];
+    
+    [self.window makeKeyAndVisible];
+    [self addAdvertise];
+    
     return YES;
 }
 

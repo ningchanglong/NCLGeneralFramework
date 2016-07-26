@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  NCLGeneralFramework
+//
+//  Created by ioi on 16/7/26.
+//  Copyright © 2016年 ncl. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Config.h"
+#import "RootNavigationController.h"
+#import "MainTabBarController.h"
+#import "AdvertiseViewController.h"
+
+#import "OneViewController.h"
+#import "TwoViewController.h"
+#import "ThreeViewController.h"
+#import "FourViewController.h"
+#import "FiveViewController.h"
+#import "BLL.h"
+#import "MBProgressHUD+HUD.h"
+#import "UIBarButtonItem+Item.h"
+/**
+ * 三方库
+ */
+#import <Masonry.h>
+#import <AFNetworking.h>
+#import <Availability.h>
+
+#endif /* PrefixHeader_pch */
