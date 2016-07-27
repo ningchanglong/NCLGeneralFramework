@@ -60,6 +60,7 @@
 		E98BACD01D483D09004A3F08 /* RSADataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACC21D483D09004A3F08 /* RSADataSigner.m */; settings = {ASSET_TAGS = (); }; };
 		E98BACD11D483D09004A3F08 /* RSADataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACC41D483D09004A3F08 /* RSADataVerifier.m */; settings = {ASSET_TAGS = (); }; };
 		E98BACD41D48405F004A3F08 /* AlipaySDK+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACD31D48405F004A3F08 /* AlipaySDK+Add.m */; settings = {ASSET_TAGS = (); }; };
+		E98BACDD1D488D5E004A3F08 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACDC1D488D5E004A3F08 /* UIColor+Hex.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -253,6 +254,8 @@
 		E98BACC41D483D09004A3F08 /* RSADataVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSADataVerifier.m; sourceTree = "<group>"; };
 		E98BACD21D48405F004A3F08 /* AlipaySDK+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AlipaySDK+Add.h"; sourceTree = "<group>"; };
 		E98BACD31D48405F004A3F08 /* AlipaySDK+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AlipaySDK+Add.m"; sourceTree = "<group>"; };
+		E98BACDB1D488D5E004A3F08 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		E98BACDC1D488D5E004A3F08 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		FCDE28A135EB774CAC54D4CC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -426,6 +429,8 @@
 				E90F23F81D4753D400A7BD6B /* UIBarButtonItem+Item.m */,
 				E98BACD21D48405F004A3F08 /* AlipaySDK+Add.h */,
 				E98BACD31D48405F004A3F08 /* AlipaySDK+Add.m */,
+				E98BACDB1D488D5E004A3F08 /* UIColor+Hex.h */,
+				E98BACDC1D488D5E004A3F08 /* UIColor+Hex.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -837,6 +842,7 @@
 				E90F23F21D47538C00A7BD6B /* AdvertiseViewController.m in Sources */,
 				E90F24061D47541600A7BD6B /* MainTabBarController.m in Sources */,
 				E98BACD41D48405F004A3F08 /* AlipaySDK+Add.m in Sources */,
+				E98BACDD1D488D5E004A3F08 /* UIColor+Hex.m in Sources */,
 				E98BACCA1D483D09004A3F08 /* base64.m in Sources */,
 				E98BACCF1D483D09004A3F08 /* openssl_wrapper.m in Sources */,
 				E90F23EE1D47536C00A7BD6B /* FiveViewController.m in Sources */,

@@ -26,16 +26,17 @@
     
     
     UIButton *AlipayBtn = [[UIButton alloc] init];
-    AlipayBtn.backgroundColor = [UIColor blueColor];
+//    AlipayBtn.backgroundColor = [UIColor blueColor];
     [self.view addSubview:AlipayBtn];
     AlipayBtn.layer.masksToBounds = YES;
     AlipayBtn.layer.cornerRadius = 5;
-    [AlipayBtn setTitle:@"支付宝支付" forState:UIControlStateNormal];
+//    [AlipayBtn setTitle:@"支付宝支付" forState:UIControlStateNormal];
+    [AlipayBtn setImage:[UIImage imageNamed:@"biao"] forState:UIControlStateNormal];
     [AlipayBtn addTarget:self action:@selector(aliPayActin) forControlEvents:UIControlEventTouchUpInside];
     [AlipayBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        make.width.mas_equalTo(150);
-        make.height.mas_equalTo(50);
+        make.width.mas_equalTo(100);
+        make.height.mas_equalTo(100);
         make.centerX.mas_equalTo(self.view);
         make.top.mas_equalTo(self.view.mas_top).offset(30);
         

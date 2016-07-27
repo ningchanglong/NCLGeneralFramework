@@ -23,7 +23,7 @@
     redView.backgroundColor = [UIColor redColor];
     [self.view addSubview:redView];
     self.greenView = [[UIView alloc]init];
-    self.greenView.backgroundColor = [UIColor greenColor];
+    self.greenView.backgroundColor = [UIColor colorWithHexString:@"#240123"];
     [self.view addSubview:self.greenView];
     UIView *blueView = [[UIView alloc]init];
     blueView.backgroundColor  = [UIColor blueColor];
