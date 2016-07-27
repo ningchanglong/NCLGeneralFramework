@@ -10,4 +10,9 @@
 
 @interface AppDelegate (Pay)
 
+/**
+ * 添加支付功能
+ */
+- (void)addPaymentFunction;
+
 @end

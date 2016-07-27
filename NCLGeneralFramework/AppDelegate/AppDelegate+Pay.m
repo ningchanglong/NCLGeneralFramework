@@ -7,7 +7,13 @@
 //
 
 #import "AppDelegate+Pay.h"
-
+#import "AlipaySDK+Add.h"
 @implementation AppDelegate (Pay)
+
+- (void)addPaymentFunction
+{
+    //注册支付宝支付(客户端签名才需要注册)
+    [AlipaySDK xwAdd_registerAlipayWithPartnerID:AliPayPartnerID sellerID:AliPaySellerID partnerPrivKey:AliPayPartnerPrivKey];
+}
 
 @end

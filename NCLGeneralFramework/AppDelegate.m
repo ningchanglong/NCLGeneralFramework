@@ -9,7 +9,9 @@
 #import "AppDelegate.h"
 #import "AppDelegate+AdvertiseViewController.h"
 #import "AppDelegate+RootViewController.h"
+#import "AppDelegate+Pay.h"
 #import "MainTabBarController.h"
+#import "AlipaySDK+Add.h"
 @interface AppDelegate ()
 
 @end
@@ -23,10 +25,18 @@
     [NSThread sleepForTimeInterval:2.0];//设置启动页面时间
     [self setAppWindows];
     [self setRootViewCotroller];
-    
+    [self addPaymentFunction];
     [self.window makeKeyAndVisible];
     [self addAdvertise];
+
     
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString*, id> *)options{
+    
+    //处理支付宝回调信息
+    [AlipaySDK xwAdd_handleOpenURL:url];
     return YES;
 }
 

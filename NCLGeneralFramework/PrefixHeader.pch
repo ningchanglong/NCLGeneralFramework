@@ -22,11 +22,12 @@
 #import "BLL.h"
 #import "MBProgressHUD+HUD.h"
 #import "UIBarButtonItem+Item.h"
+
 /**
  * 三方库
  */
 #import <Masonry.h>
 #import <AFNetworking.h>
 #import <Availability.h>
-
+#import <AlipaySDK/AlipaySDK.h>
 #endif /* PrefixHeader_pch */
