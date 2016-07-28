@@ -61,6 +61,7 @@
 		E98BACD11D483D09004A3F08 /* RSADataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACC41D483D09004A3F08 /* RSADataVerifier.m */; settings = {ASSET_TAGS = (); }; };
 		E98BACD41D48405F004A3F08 /* AlipaySDK+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACD31D48405F004A3F08 /* AlipaySDK+Add.m */; settings = {ASSET_TAGS = (); }; };
 		E98BACDD1D488D5E004A3F08 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACDC1D488D5E004A3F08 /* UIColor+Hex.m */; settings = {ASSET_TAGS = (); }; };
+		E996A3A81D499B4B00342AEE /* CheckDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E996A3A71D499B4B00342AEE /* CheckDataTool.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -256,6 +257,8 @@
 		E98BACD31D48405F004A3F08 /* AlipaySDK+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AlipaySDK+Add.m"; sourceTree = "<group>"; };
 		E98BACDB1D488D5E004A3F08 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		E98BACDC1D488D5E004A3F08 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		E996A3A61D499B4B00342AEE /* CheckDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckDataTool.h; sourceTree = "<group>"; };
+		E996A3A71D499B4B00342AEE /* CheckDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckDataTool.m; sourceTree = "<group>"; };
 		FCDE28A135EB774CAC54D4CC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -347,6 +350,7 @@
 				E90F23D21D4752F600A7BD6B /* BLL */,
 				E90F23D31D4752F600A7BD6B /* Category */,
 				E90F23D41D4752F600A7BD6B /* Config */,
+				E996A3A51D499B1A00342AEE /* Tool */,
 				E90F23D51D4752F600A7BD6B /* Controller */,
 				E90F23D61D4752F600A7BD6B /* Lib */,
 				E90F23D71D4752F600A7BD6B /* Model */,
@@ -634,6 +638,15 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
+		E996A3A51D499B1A00342AEE /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E996A3A61D499B4B00342AEE /* CheckDataTool.h */,
+				E996A3A71D499B4B00342AEE /* CheckDataTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		F143B8C237FEC961217B6106 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -831,6 +844,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E996A3A81D499B4B00342AEE /* CheckDataTool.m in Sources */,
 				E90F23EB1D47536C00A7BD6B /* TwoViewController.m in Sources */,
 				E98BACCB1D483D09004A3F08 /* DataSigner.m in Sources */,
 				E90F23DC1D47532E00A7BD6B /* AdvertiseView.m in Sources */,
