@@ -30,4 +30,5 @@
 #import <AFNetworking.h>
 #import <Availability.h>
 #import <AlipaySDK/AlipaySDK.h>
+#import "KeychainIDFA.h"
 #endif /* PrefixHeader_pch */

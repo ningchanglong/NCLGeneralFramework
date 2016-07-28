@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    NSLog(@"%@",[KeychainIDFA IDFA]);
     UIView *redView = [[UIView alloc]init];
     redView.backgroundColor = [UIColor redColor];
     [self.view addSubview:redView];

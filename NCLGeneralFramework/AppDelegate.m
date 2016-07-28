@@ -28,6 +28,7 @@
     [self addPaymentFunction];
     [self.window makeKeyAndVisible];
     [self addAdvertise];
+    
 
     
     return YES;

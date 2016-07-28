@@ -13,6 +13,7 @@
 
 
 - (void)addAdvertise{
+    
     // 1.判断沙盒中是否存在广告图片，如果存在，直接显示
     NSString *filePath = [self getFilePathWithImageName:[kUserDefaults valueForKey:adImageName]];
     

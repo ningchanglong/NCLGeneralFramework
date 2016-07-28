@@ -53,11 +53,12 @@
         //支付宝支付无论网页版本和app版本都统一在这里回调
         [self _xw_handleResult:successed];
     }];
+    
 }
 
 /**处理支付结果*/
 - (void)_xw_handleResult:(BOOL)successed{
-
+   
     if (successed) {
         [MBProgressHUD showSuccess:@"支付成功"];
     } else {

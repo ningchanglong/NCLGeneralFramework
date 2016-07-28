@@ -62,6 +62,8 @@
 		E98BACD41D48405F004A3F08 /* AlipaySDK+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACD31D48405F004A3F08 /* AlipaySDK+Add.m */; settings = {ASSET_TAGS = (); }; };
 		E98BACDD1D488D5E004A3F08 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACDC1D488D5E004A3F08 /* UIColor+Hex.m */; settings = {ASSET_TAGS = (); }; };
 		E996A3A81D499B4B00342AEE /* CheckDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E996A3A71D499B4B00342AEE /* CheckDataTool.m */; settings = {ASSET_TAGS = (); }; };
+		E996A3AE1D49A58D00342AEE /* KeychainHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E996A3AB1D49A58D00342AEE /* KeychainHelper.m */; settings = {ASSET_TAGS = (); }; };
+		E996A3AF1D49A58D00342AEE /* KeychainIDFA.m in Sources */ = {isa = PBXBuildFile; fileRef = E996A3AD1D49A58D00342AEE /* KeychainIDFA.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -259,6 +261,10 @@
 		E98BACDC1D488D5E004A3F08 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		E996A3A61D499B4B00342AEE /* CheckDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckDataTool.h; sourceTree = "<group>"; };
 		E996A3A71D499B4B00342AEE /* CheckDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckDataTool.m; sourceTree = "<group>"; };
+		E996A3AA1D49A58D00342AEE /* KeychainHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainHelper.h; sourceTree = "<group>"; };
+		E996A3AB1D49A58D00342AEE /* KeychainHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainHelper.m; sourceTree = "<group>"; };
+		E996A3AC1D49A58D00342AEE /* KeychainIDFA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainIDFA.h; sourceTree = "<group>"; };
+		E996A3AD1D49A58D00342AEE /* KeychainIDFA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainIDFA.m; sourceTree = "<group>"; };
 		FCDE28A135EB774CAC54D4CC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -468,6 +474,7 @@
 		E90F23D61D4752F600A7BD6B /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				E996A3A91D49A58D00342AEE /* KeychainIDFA */,
 				E98BAC5F1D483D09004A3F08 /* AliPaySDK */,
 			);
 			path = Lib;
@@ -645,6 +652,17 @@
 				E996A3A71D499B4B00342AEE /* CheckDataTool.m */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		E996A3A91D49A58D00342AEE /* KeychainIDFA */ = {
+			isa = PBXGroup;
+			children = (
+				E996A3AA1D49A58D00342AEE /* KeychainHelper.h */,
+				E996A3AB1D49A58D00342AEE /* KeychainHelper.m */,
+				E996A3AC1D49A58D00342AEE /* KeychainIDFA.h */,
+				E996A3AD1D49A58D00342AEE /* KeychainIDFA.m */,
+			);
+			path = KeychainIDFA;
 			sourceTree = "<group>";
 		};
 		F143B8C237FEC961217B6106 /* Pods */ = {
@@ -852,8 +870,10 @@
 				E90F23A51D47504C00A7BD6B /* ViewController.m in Sources */,
 				E98BACCD1D483D09004A3F08 /* MD5DataSigner.m in Sources */,
 				E90F23ED1D47536C00A7BD6B /* FourViewController.m in Sources */,
+				E996A3AE1D49A58D00342AEE /* KeychainHelper.m in Sources */,
 				E90F23FE1D4753EC00A7BD6B /* BLL.m in Sources */,
 				E90F23F21D47538C00A7BD6B /* AdvertiseViewController.m in Sources */,
+				E996A3AF1D49A58D00342AEE /* KeychainIDFA.m in Sources */,
 				E90F24061D47541600A7BD6B /* MainTabBarController.m in Sources */,
 				E98BACD41D48405F004A3F08 /* AlipaySDK+Add.m in Sources */,
 				E98BACDD1D488D5E004A3F08 /* UIColor+Hex.m in Sources */,
@@ -1049,6 +1069,7 @@
 					NCLGeneralFramework/Lib/AliPaySDK/,
 				);
 				INFOPLIST_FILE = NCLGeneralFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1083,6 +1104,7 @@
 					NCLGeneralFramework/Lib/AliPaySDK/,
 				);
 				INFOPLIST_FILE = NCLGeneralFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
