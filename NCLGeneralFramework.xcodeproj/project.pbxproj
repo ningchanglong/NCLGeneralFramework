@@ -16,24 +16,24 @@
 		E90F23AD1D47504C00A7BD6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90F23AB1D47504C00A7BD6B /* LaunchScreen.storyboard */; };
 		E90F23B81D47504C00A7BD6B /* NCLGeneralFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23B71D47504C00A7BD6B /* NCLGeneralFrameworkTests.m */; };
 		E90F23C31D47504C00A7BD6B /* NCLGeneralFrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23C21D47504C00A7BD6B /* NCLGeneralFrameworkUITests.m */; };
-		E90F23DC1D47532E00A7BD6B /* AdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23DB1D47532E00A7BD6B /* AdvertiseView.m */; settings = {ASSET_TAGS = (); }; };
-		E90F23DF1D47533B00A7BD6B /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23DE1D47533B00A7BD6B /* AFAppDotNetAPIClient.m */; settings = {ASSET_TAGS = (); }; };
-		E90F23EA1D47536C00A7BD6B /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23E11D47536C00A7BD6B /* OneViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E90F23EB1D47536C00A7BD6B /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23E31D47536C00A7BD6B /* TwoViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E90F23EC1D47536C00A7BD6B /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23E51D47536C00A7BD6B /* ThreeViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E90F23ED1D47536C00A7BD6B /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23E71D47536C00A7BD6B /* FourViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E90F23EE1D47536C00A7BD6B /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23E91D47536C00A7BD6B /* FiveViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E90F23F21D47538C00A7BD6B /* AdvertiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23F11D47538C00A7BD6B /* AdvertiseViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E90F23F91D4753D400A7BD6B /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E90F23F41D4753D400A7BD6B /* MBProgressHUD.bundle */; settings = {ASSET_TAGS = (); }; };
-		E90F23FA1D4753D400A7BD6B /* MBProgressHUD+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23F61D4753D400A7BD6B /* MBProgressHUD+HUD.m */; settings = {ASSET_TAGS = (); }; };
-		E90F23FB1D4753D400A7BD6B /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23F81D4753D400A7BD6B /* UIBarButtonItem+Item.m */; settings = {ASSET_TAGS = (); }; };
-		E90F23FE1D4753EC00A7BD6B /* BLL.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23FD1D4753EC00A7BD6B /* BLL.m */; settings = {ASSET_TAGS = (); }; };
-		E90F24011D4753FF00A7BD6B /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F24001D4753FF00A7BD6B /* UserModel.m */; settings = {ASSET_TAGS = (); }; };
-		E90F24061D47541600A7BD6B /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F24031D47541600A7BD6B /* MainTabBarController.m */; settings = {ASSET_TAGS = (); }; };
-		E90F24071D47541600A7BD6B /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F24051D47541600A7BD6B /* RootNavigationController.m */; settings = {ASSET_TAGS = (); }; };
-		E90F240E1D47543F00A7BD6B /* AppDelegate+AdvertiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F24091D47543F00A7BD6B /* AppDelegate+AdvertiseViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E90F240F1D47543F00A7BD6B /* AppDelegate+Pay.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F240B1D47543F00A7BD6B /* AppDelegate+Pay.m */; settings = {ASSET_TAGS = (); }; };
-		E90F24101D47543F00A7BD6B /* AppDelegate+RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F240D1D47543F00A7BD6B /* AppDelegate+RootViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E90F23DC1D47532E00A7BD6B /* AdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23DB1D47532E00A7BD6B /* AdvertiseView.m */; };
+		E90F23DF1D47533B00A7BD6B /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23DE1D47533B00A7BD6B /* AFAppDotNetAPIClient.m */; };
+		E90F23EA1D47536C00A7BD6B /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23E11D47536C00A7BD6B /* OneViewController.m */; };
+		E90F23EB1D47536C00A7BD6B /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23E31D47536C00A7BD6B /* TwoViewController.m */; };
+		E90F23EC1D47536C00A7BD6B /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23E51D47536C00A7BD6B /* ThreeViewController.m */; };
+		E90F23ED1D47536C00A7BD6B /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23E71D47536C00A7BD6B /* FourViewController.m */; };
+		E90F23EE1D47536C00A7BD6B /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23E91D47536C00A7BD6B /* FiveViewController.m */; };
+		E90F23F21D47538C00A7BD6B /* AdvertiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23F11D47538C00A7BD6B /* AdvertiseViewController.m */; };
+		E90F23F91D4753D400A7BD6B /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E90F23F41D4753D400A7BD6B /* MBProgressHUD.bundle */; };
+		E90F23FA1D4753D400A7BD6B /* MBProgressHUD+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23F61D4753D400A7BD6B /* MBProgressHUD+HUD.m */; };
+		E90F23FB1D4753D400A7BD6B /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23F81D4753D400A7BD6B /* UIBarButtonItem+Item.m */; };
+		E90F23FE1D4753EC00A7BD6B /* BLL.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23FD1D4753EC00A7BD6B /* BLL.m */; };
+		E90F24011D4753FF00A7BD6B /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F24001D4753FF00A7BD6B /* UserModel.m */; };
+		E90F24061D47541600A7BD6B /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F24031D47541600A7BD6B /* MainTabBarController.m */; };
+		E90F24071D47541600A7BD6B /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F24051D47541600A7BD6B /* RootNavigationController.m */; };
+		E90F240E1D47543F00A7BD6B /* AppDelegate+AdvertiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F24091D47543F00A7BD6B /* AppDelegate+AdvertiseViewController.m */; };
+		E90F240F1D47543F00A7BD6B /* AppDelegate+Pay.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F240B1D47543F00A7BD6B /* AppDelegate+Pay.m */; };
+		E90F24101D47543F00A7BD6B /* AppDelegate+RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F240D1D47543F00A7BD6B /* AppDelegate+RootViewController.m */; };
 		E90F24171D4754FA00A7BD6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E90F24191D4754FA00A7BD6B /* InfoPlist.strings */; };
 		E98BABDC1D483BFF004A3F08 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98BABDB1D483BFF004A3F08 /* CoreMotion.framework */; };
 		E98BABDE1D483C08004A3F08 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98BABDD1D483C08004A3F08 /* CFNetwork.framework */; };
@@ -46,24 +46,24 @@
 		E98BABEC1D483C5B004A3F08 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98BABEB1D483C5B004A3F08 /* SystemConfiguration.framework */; };
 		E98BABEE1D483C62004A3F08 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E98BABED1D483C62004A3F08 /* libz.tbd */; };
 		E98BABF01D483C6E004A3F08 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E98BABEF1D483C6E004A3F08 /* libc++.tbd */; };
-		E98BACC51D483D09004A3F08 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E98BAC601D483D09004A3F08 /* AlipaySDK.bundle */; settings = {ASSET_TAGS = (); }; };
-		E98BACC61D483D09004A3F08 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98BAC611D483D09004A3F08 /* AlipaySDK.framework */; settings = {ASSET_TAGS = (); }; };
-		E98BACC71D483D09004A3F08 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E98BAC861D483D09004A3F08 /* libcrypto.a */; settings = {ASSET_TAGS = (); }; };
-		E98BACC81D483D09004A3F08 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E98BAC871D483D09004A3F08 /* libssl.a */; settings = {ASSET_TAGS = (); }; };
-		E98BACC91D483D09004A3F08 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACB21D483D09004A3F08 /* Order.m */; settings = {ASSET_TAGS = (); }; };
-		E98BACCA1D483D09004A3F08 /* base64.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACB51D483D09004A3F08 /* base64.m */; settings = {ASSET_TAGS = (); }; };
-		E98BACCB1D483D09004A3F08 /* DataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACB81D483D09004A3F08 /* DataSigner.m */; settings = {ASSET_TAGS = (); }; };
-		E98BACCC1D483D09004A3F08 /* DataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACBA1D483D09004A3F08 /* DataVerifier.m */; settings = {ASSET_TAGS = (); }; };
-		E98BACCD1D483D09004A3F08 /* MD5DataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACBC1D483D09004A3F08 /* MD5DataSigner.m */; settings = {ASSET_TAGS = (); }; };
-		E98BACCE1D483D09004A3F08 /* NSDataEx.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACBE1D483D09004A3F08 /* NSDataEx.m */; settings = {ASSET_TAGS = (); }; };
-		E98BACCF1D483D09004A3F08 /* openssl_wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACC01D483D09004A3F08 /* openssl_wrapper.m */; settings = {ASSET_TAGS = (); }; };
-		E98BACD01D483D09004A3F08 /* RSADataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACC21D483D09004A3F08 /* RSADataSigner.m */; settings = {ASSET_TAGS = (); }; };
-		E98BACD11D483D09004A3F08 /* RSADataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACC41D483D09004A3F08 /* RSADataVerifier.m */; settings = {ASSET_TAGS = (); }; };
-		E98BACD41D48405F004A3F08 /* AlipaySDK+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACD31D48405F004A3F08 /* AlipaySDK+Add.m */; settings = {ASSET_TAGS = (); }; };
-		E98BACDD1D488D5E004A3F08 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACDC1D488D5E004A3F08 /* UIColor+Hex.m */; settings = {ASSET_TAGS = (); }; };
-		E996A3A81D499B4B00342AEE /* CheckDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E996A3A71D499B4B00342AEE /* CheckDataTool.m */; settings = {ASSET_TAGS = (); }; };
-		E996A3AE1D49A58D00342AEE /* KeychainHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E996A3AB1D49A58D00342AEE /* KeychainHelper.m */; settings = {ASSET_TAGS = (); }; };
-		E996A3AF1D49A58D00342AEE /* KeychainIDFA.m in Sources */ = {isa = PBXBuildFile; fileRef = E996A3AD1D49A58D00342AEE /* KeychainIDFA.m */; settings = {ASSET_TAGS = (); }; };
+		E98BACC51D483D09004A3F08 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E98BAC601D483D09004A3F08 /* AlipaySDK.bundle */; };
+		E98BACC61D483D09004A3F08 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98BAC611D483D09004A3F08 /* AlipaySDK.framework */; };
+		E98BACC71D483D09004A3F08 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E98BAC861D483D09004A3F08 /* libcrypto.a */; };
+		E98BACC81D483D09004A3F08 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E98BAC871D483D09004A3F08 /* libssl.a */; };
+		E98BACC91D483D09004A3F08 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACB21D483D09004A3F08 /* Order.m */; };
+		E98BACCA1D483D09004A3F08 /* base64.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACB51D483D09004A3F08 /* base64.m */; };
+		E98BACCB1D483D09004A3F08 /* DataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACB81D483D09004A3F08 /* DataSigner.m */; };
+		E98BACCC1D483D09004A3F08 /* DataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACBA1D483D09004A3F08 /* DataVerifier.m */; };
+		E98BACCD1D483D09004A3F08 /* MD5DataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACBC1D483D09004A3F08 /* MD5DataSigner.m */; };
+		E98BACCE1D483D09004A3F08 /* NSDataEx.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACBE1D483D09004A3F08 /* NSDataEx.m */; };
+		E98BACCF1D483D09004A3F08 /* openssl_wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACC01D483D09004A3F08 /* openssl_wrapper.m */; };
+		E98BACD01D483D09004A3F08 /* RSADataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACC21D483D09004A3F08 /* RSADataSigner.m */; };
+		E98BACD11D483D09004A3F08 /* RSADataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACC41D483D09004A3F08 /* RSADataVerifier.m */; };
+		E98BACD41D48405F004A3F08 /* AlipaySDK+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACD31D48405F004A3F08 /* AlipaySDK+Add.m */; };
+		E98BACDD1D488D5E004A3F08 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = E98BACDC1D488D5E004A3F08 /* UIColor+Hex.m */; };
+		E996A3A81D499B4B00342AEE /* CheckDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E996A3A71D499B4B00342AEE /* CheckDataTool.m */; };
+		E996A3AE1D49A58D00342AEE /* KeychainHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E996A3AB1D49A58D00342AEE /* KeychainHelper.m */; };
+		E996A3AF1D49A58D00342AEE /* KeychainIDFA.m in Sources */ = {isa = PBXBuildFile; fileRef = E996A3AD1D49A58D00342AEE /* KeychainIDFA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1057,7 +1057,7 @@
 					"$(PROJECT_DIR)/NCLGeneralFramework/Lib",
 					"$(PROJECT_DIR)/NCLGeneralFramework/Lib/AliPaySDK",
 				);
-				GCC_PREFIX_HEADER = /Users/ioi/Desktop/NCLGeneralFramework/NCLGeneralFramework/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = NCLGeneralFramework/PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -1092,7 +1092,7 @@
 					"$(PROJECT_DIR)/NCLGeneralFramework/Lib",
 					"$(PROJECT_DIR)/NCLGeneralFramework/Lib/AliPaySDK",
 				);
-				GCC_PREFIX_HEADER = /Users/ioi/Desktop/NCLGeneralFramework/NCLGeneralFramework/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = NCLGeneralFramework/PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",

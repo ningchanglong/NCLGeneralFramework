@@ -91,6 +91,7 @@ static int const showtime = 5;
 
 - (void)show
 {
+    
     // 倒计时方法1：GCD
     //    [self startCoundown];
     

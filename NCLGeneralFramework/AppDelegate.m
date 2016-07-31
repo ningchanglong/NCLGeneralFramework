@@ -27,6 +27,7 @@
     [self setRootViewCotroller];
     [self addPaymentFunction];
     [self.window makeKeyAndVisible];
+//    [[UIApplication sharedApplication] setStatusBarHidden:YES];
     [self addAdvertise];
     
 

@@ -21,4 +21,11 @@
  */
 
 + (UIBarButtonItem *)itemWithimage:(UIImage *)image selImage:(UIImage *)selImage target:(id)target action:(SEL)action;
+
+
+/**
+ * 设置统一的返回键
+ */
+
++ (UIBarButtonItem *)backItemWithimage:(UIImage *)image highImage:(UIImage *)highImage target:(id)target action:(SEL)action title:(NSString *)title;
 @end

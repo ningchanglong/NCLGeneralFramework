@@ -16,9 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    self.view.backgroundColor = [UIColor brownColor];
+    self.view.backgroundColor = [UIColor brownColor];
+    
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem backItemWithimage:[UIImage imageNamed:@"navigationButtonReturn"] highImage:[UIImage imageNamed:@"navigationButtonReturnClick"] target:self action:@selector(popClick) title:@"返回"];
 }
 
+- (void)popClick
+{
+    [self.navigationController popViewControllerAnimated: YES];
+}
 
 
 @end

@@ -20,6 +20,23 @@
     self.title = @"书架";
     [self createUI];
 }
+//只调用一次
++ (void)load
+{
+    // 获取哪个类中UITabBarItem
+    UITabBarItem *item = [UITabBarItem appearanceWhenContainedIn:self, nil];
+    
+//    // 设置按钮选中标题的颜色:富文本:描述一个文字颜色,字体,阴影,空心,图文混排
+//    // 创建一个描述文本属性的字典
+//    NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
+//    attrs[NSForegroundColorAttributeName] = [UIColor blackColor];
+//    [item setTitleTextAttributes:attrs forState:UIControlStateSelected];
+    
+    // 设置字体尺寸:只有设置正常状态下,才会有效果
+    NSMutableDictionary *attrsNor = [NSMutableDictionary dictionary];
+    attrsNor[NSFontAttributeName] = [UIFont systemFontOfSize:13];
+    [item setTitleTextAttributes:attrsNor forState:UIControlStateNormal];
+}
 
 - (void)createUI
 {
@@ -29,11 +46,8 @@
     self.tabBar.tintColor = COLOR_MAIN_BAR;
     self.tabBar.translucent=NO;
     self.tabBar.opaque = YES;
-    self.tabBar.backgroundImage = [UIImage imageNamed:@"tabbar_bg"];
-//    self.tabBar.barTintColor = Main_Color;
-    
-    
-    
+//    self.tabBar.backgroundImage = [UIImage imageNamed:@"tabbar_bg"];
+    self.tabBar.barTintColor = Main_Color;
     
     OneViewController *oneVC = [[OneViewController alloc] init];
     oneVC.tabBarItem.tag = 0;
