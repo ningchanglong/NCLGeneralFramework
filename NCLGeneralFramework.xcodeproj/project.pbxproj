@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A5D08E7BBB6D9BB7609EBEB8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B56FE5A8E2A72DDFEC010414 /* libPods.a */; };
 		C48B93AC1D54CA2D00A727A3 /* UIButton+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = C48B93AB1D54CA2D00A727A3 /* UIButton+Extend.m */; };
+		C4AC853D1D56D018009A953C /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AC853C1D56D018009A953C /* UIImage+Extend.m */; };
 		C4DF66B41D55B7AE00B45AC4 /* FileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DF66B31D55B7AE00B45AC4 /* FileTool.m */; };
 		E90F239F1D47504C00A7BD6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F239E1D47504C00A7BD6B /* main.m */; };
 		E90F23A21D47504C00A7BD6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23A11D47504C00A7BD6B /* AppDelegate.m */; };
@@ -92,6 +93,8 @@
 		B56FE5A8E2A72DDFEC010414 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48B93AA1D54CA2D00A727A3 /* UIButton+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extend.h"; sourceTree = "<group>"; };
 		C48B93AB1D54CA2D00A727A3 /* UIButton+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extend.m"; sourceTree = "<group>"; };
+		C4AC853B1D56D018009A953C /* UIImage+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
+		C4AC853C1D56D018009A953C /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
 		C4DF66B21D55B7AE00B45AC4 /* FileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileTool.h; sourceTree = "<group>"; };
 		C4DF66B31D55B7AE00B45AC4 /* FileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileTool.m; sourceTree = "<group>"; };
 		E90F239A1D47504C00A7BD6B /* NCLGeneralFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCLGeneralFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -455,6 +458,8 @@
 				E98BACDC1D488D5E004A3F08 /* UIColor+Hex.m */,
 				C48B93AA1D54CA2D00A727A3 /* UIButton+Extend.h */,
 				C48B93AB1D54CA2D00A727A3 /* UIButton+Extend.m */,
+				C4AC853B1D56D018009A953C /* UIImage+Extend.h */,
+				C4AC853C1D56D018009A953C /* UIImage+Extend.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -892,6 +897,7 @@
 			files = (
 				E996A3A81D499B4B00342AEE /* CheckDataTool.m in Sources */,
 				E90F23EB1D47536C00A7BD6B /* TwoViewController.m in Sources */,
+				C4AC853D1D56D018009A953C /* UIImage+Extend.m in Sources */,
 				E98BACCB1D483D09004A3F08 /* DataSigner.m in Sources */,
 				E90F23DC1D47532E00A7BD6B /* AdvertiseView.m in Sources */,
 				E90F24071D47541600A7BD6B /* RootNavigationController.m in Sources */,

@@ -15,7 +15,7 @@
 
 
 - (void)setRootViewCotroller{
-    if ([SZUserDefault objectForKey:@"isOne"]) {//不是第一次安装
+    if ([kUserDefaults objectForKey:@"isOne"]) {//不是第一次安装
         [self setRoot];
     } else {
         UIViewController *advertiseVC = [[UIViewController alloc] init];

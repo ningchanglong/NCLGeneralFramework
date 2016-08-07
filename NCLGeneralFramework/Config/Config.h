@@ -14,9 +14,12 @@
 
 #define Main_Color [UIColor colorWithRed:(253)/255.0 green:(163)/255.0 blue:(19)/255.0 alpha:1.0]
 
-#define SZUserDefault [NSUserDefaults standardUserDefaults]
+
 #define kUserDefaults [NSUserDefaults standardUserDefaults]
 #define COLOR_MAIN_BAR [UIColor colorWithRed:85/255.0f green:133/255.0f blue:193/255.0f alpha:1]
+
+#define CachePath [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject]
+
 /**
  * 合作者身份ID
  */
