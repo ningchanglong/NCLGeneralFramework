@@ -35,6 +35,7 @@
 		E90F240F1D47543F00A7BD6B /* AppDelegate+Pay.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F240B1D47543F00A7BD6B /* AppDelegate+Pay.m */; };
 		E90F24101D47543F00A7BD6B /* AppDelegate+RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F240D1D47543F00A7BD6B /* AppDelegate+RootViewController.m */; };
 		E90F24171D4754FA00A7BD6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E90F24191D4754FA00A7BD6B /* InfoPlist.strings */; };
+		E97CC67D1D6C7DC1005CD4E7 /* NCLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E97CC67C1D6C7DC1005CD4E7 /* NCLAlertView.m */; settings = {ASSET_TAGS = (); }; };
 		E981FF171D4EE2FE004D6DD5 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E981FF141D4EE2FE004D6DD5 /* UIImage+ImageEffects.m */; settings = {ASSET_TAGS = (); }; };
 		E981FF181D4EE2FE004D6DD5 /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E981FF161D4EE2FE004D6DD5 /* UIImageView+LBBlurredImage.m */; settings = {ASSET_TAGS = (); }; };
 		E98BABDC1D483BFF004A3F08 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98BABDB1D483BFF004A3F08 /* CoreMotion.framework */; };
@@ -148,6 +149,8 @@
 		E90F24181D4754FA00A7BD6B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		E90F241A1D4754FB00A7BD6B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		E90F241B1D4754FD00A7BD6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E97CC67B1D6C7DC1005CD4E7 /* NCLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCLAlertView.h; sourceTree = "<group>"; };
+		E97CC67C1D6C7DC1005CD4E7 /* NCLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCLAlertView.m; sourceTree = "<group>"; };
 		E981FF131D4EE2FE004D6DD5 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		E981FF141D4EE2FE004D6DD5 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		E981FF151D4EE2FE004D6DD5 /* UIImageView+LBBlurredImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LBBlurredImage.h"; sourceTree = "<group>"; };
@@ -668,6 +671,8 @@
 			children = (
 				E996A3A61D499B4B00342AEE /* CheckDataTool.h */,
 				E996A3A71D499B4B00342AEE /* CheckDataTool.m */,
+				E97CC67B1D6C7DC1005CD4E7 /* NCLAlertView.h */,
+				E97CC67C1D6C7DC1005CD4E7 /* NCLAlertView.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -909,6 +914,7 @@
 				E90F23EA1D47536C00A7BD6B /* OneViewController.m in Sources */,
 				E90F24011D4753FF00A7BD6B /* UserModel.m in Sources */,
 				E90F240F1D47543F00A7BD6B /* AppDelegate+Pay.m in Sources */,
+				E97CC67D1D6C7DC1005CD4E7 /* NCLAlertView.m in Sources */,
 				E90F23DF1D47533B00A7BD6B /* AFAppDotNetAPIClient.m in Sources */,
 				E98BACD11D483D09004A3F08 /* RSADataVerifier.m in Sources */,
 				E90F240E1D47543F00A7BD6B /* AppDelegate+AdvertiseViewController.m in Sources */,

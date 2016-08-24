@@ -7,7 +7,7 @@
 //
 
 #import "FourViewController.h"
-
+#import "NCLAlertView.h"
 #define kWIDTH [UIScreen mainScreen].bounds.size.width
 #define BG_IMAGE_WIDTH 110
 #define BG_IMAGE_HEIGHT 110
@@ -100,6 +100,16 @@
 
 - (void)headImgViewClick:(UITapGestureRecognizer *)gesture {
     NSLog(@"%@->你点我干啥?",gesture);
+    
+    NCLAlertView *alert = [[NCLAlertView alloc] initWithTitle:@"提示" message:@"alertView"];
+    [alert addBtnTitle:@"first" action:^{
+        NSLog(@"click first");
+    }];
+    [alert addBtnTitle:@"second" action:^{
+        NSLog(@"click second");
+    }];
+    [alert showAlertWithSender:self];
+    
 }
 
 

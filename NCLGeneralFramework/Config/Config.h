@@ -20,12 +20,12 @@
 /**
  * 合作者身份ID
  */
-#define AliPayPartnerID @"2088702047668233"
+#define AliPayPartnerID @"2088221758658893"
 
 /**
  * 收款账号
  */
-#define AliPaySellerID @"18740027440"
+#define AliPaySellerID @"aiouai@yeah.net"
 
 /**
  * 公钥

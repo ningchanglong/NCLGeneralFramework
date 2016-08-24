@@ -23,6 +23,8 @@
 		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>2016081101731757</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>xwpaydemo</string>
