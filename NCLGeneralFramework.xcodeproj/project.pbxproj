@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A5D08E7BBB6D9BB7609EBEB8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B56FE5A8E2A72DDFEC010414 /* libPods.a */; };
+		C48B93AC1D54CA2D00A727A3 /* UIButton+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = C48B93AB1D54CA2D00A727A3 /* UIButton+Extend.m */; };
+		C4AC853D1D56D018009A953C /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AC853C1D56D018009A953C /* UIImage+Extend.m */; };
+		C4DF66B41D55B7AE00B45AC4 /* FileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DF66B31D55B7AE00B45AC4 /* FileTool.m */; };
 		E90F239F1D47504C00A7BD6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F239E1D47504C00A7BD6B /* main.m */; };
 		E90F23A21D47504C00A7BD6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23A11D47504C00A7BD6B /* AppDelegate.m */; };
 		E90F23A51D47504C00A7BD6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F23A41D47504C00A7BD6B /* ViewController.m */; };
@@ -35,9 +38,14 @@
 		E90F240F1D47543F00A7BD6B /* AppDelegate+Pay.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F240B1D47543F00A7BD6B /* AppDelegate+Pay.m */; };
 		E90F24101D47543F00A7BD6B /* AppDelegate+RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F240D1D47543F00A7BD6B /* AppDelegate+RootViewController.m */; };
 		E90F24171D4754FA00A7BD6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E90F24191D4754FA00A7BD6B /* InfoPlist.strings */; };
+
 		E97CC67D1D6C7DC1005CD4E7 /* NCLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E97CC67C1D6C7DC1005CD4E7 /* NCLAlertView.m */; settings = {ASSET_TAGS = (); }; };
 		E981FF171D4EE2FE004D6DD5 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E981FF141D4EE2FE004D6DD5 /* UIImage+ImageEffects.m */; settings = {ASSET_TAGS = (); }; };
 		E981FF181D4EE2FE004D6DD5 /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E981FF161D4EE2FE004D6DD5 /* UIImageView+LBBlurredImage.m */; settings = {ASSET_TAGS = (); }; };
+
+		E981FF171D4EE2FE004D6DD5 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E981FF141D4EE2FE004D6DD5 /* UIImage+ImageEffects.m */; };
+		E981FF181D4EE2FE004D6DD5 /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E981FF161D4EE2FE004D6DD5 /* UIImageView+LBBlurredImage.m */; };
+
 		E98BABDC1D483BFF004A3F08 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98BABDB1D483BFF004A3F08 /* CoreMotion.framework */; };
 		E98BABDE1D483C08004A3F08 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98BABDD1D483C08004A3F08 /* CFNetwork.framework */; };
 		E98BABE01D483C1A004A3F08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98BABDF1D483C1A004A3F08 /* Foundation.framework */; };
@@ -89,6 +97,12 @@
 /* Begin PBXFileReference section */
 		1EA3682FAA2946F4CCE197B9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B56FE5A8E2A72DDFEC010414 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48B93AA1D54CA2D00A727A3 /* UIButton+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extend.h"; sourceTree = "<group>"; };
+		C48B93AB1D54CA2D00A727A3 /* UIButton+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extend.m"; sourceTree = "<group>"; };
+		C4AC853B1D56D018009A953C /* UIImage+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
+		C4AC853C1D56D018009A953C /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
+		C4DF66B21D55B7AE00B45AC4 /* FileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileTool.h; sourceTree = "<group>"; };
+		C4DF66B31D55B7AE00B45AC4 /* FileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileTool.m; sourceTree = "<group>"; };
 		E90F239A1D47504C00A7BD6B /* NCLGeneralFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCLGeneralFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90F239E1D47504C00A7BD6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E90F23A01D47504C00A7BD6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = NCLGeneralFramework/AppDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -450,6 +464,10 @@
 				E98BACD31D48405F004A3F08 /* AlipaySDK+Add.m */,
 				E98BACDB1D488D5E004A3F08 /* UIColor+Hex.h */,
 				E98BACDC1D488D5E004A3F08 /* UIColor+Hex.m */,
+				C48B93AA1D54CA2D00A727A3 /* UIButton+Extend.h */,
+				C48B93AB1D54CA2D00A727A3 /* UIButton+Extend.m */,
+				C4AC853B1D56D018009A953C /* UIImage+Extend.h */,
+				C4AC853C1D56D018009A953C /* UIImage+Extend.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -671,8 +689,13 @@
 			children = (
 				E996A3A61D499B4B00342AEE /* CheckDataTool.h */,
 				E996A3A71D499B4B00342AEE /* CheckDataTool.m */,
+
 				E97CC67B1D6C7DC1005CD4E7 /* NCLAlertView.h */,
 				E97CC67C1D6C7DC1005CD4E7 /* NCLAlertView.m */,
+
+				C4DF66B21D55B7AE00B45AC4 /* FileTool.h */,
+				C4DF66B31D55B7AE00B45AC4 /* FileTool.m */,
+
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -887,9 +910,11 @@
 			files = (
 				E996A3A81D499B4B00342AEE /* CheckDataTool.m in Sources */,
 				E90F23EB1D47536C00A7BD6B /* TwoViewController.m in Sources */,
+				C4AC853D1D56D018009A953C /* UIImage+Extend.m in Sources */,
 				E98BACCB1D483D09004A3F08 /* DataSigner.m in Sources */,
 				E90F23DC1D47532E00A7BD6B /* AdvertiseView.m in Sources */,
 				E90F24071D47541600A7BD6B /* RootNavigationController.m in Sources */,
+				C4DF66B41D55B7AE00B45AC4 /* FileTool.m in Sources */,
 				E90F23A51D47504C00A7BD6B /* ViewController.m in Sources */,
 				E98BACCD1D483D09004A3F08 /* MD5DataSigner.m in Sources */,
 				E90F23ED1D47536C00A7BD6B /* FourViewController.m in Sources */,
@@ -916,6 +941,7 @@
 				E90F240F1D47543F00A7BD6B /* AppDelegate+Pay.m in Sources */,
 				E97CC67D1D6C7DC1005CD4E7 /* NCLAlertView.m in Sources */,
 				E90F23DF1D47533B00A7BD6B /* AFAppDotNetAPIClient.m in Sources */,
+				C48B93AC1D54CA2D00A727A3 /* UIButton+Extend.m in Sources */,
 				E98BACD11D483D09004A3F08 /* RSADataVerifier.m in Sources */,
 				E90F240E1D47543F00A7BD6B /* AppDelegate+AdvertiseViewController.m in Sources */,
 				E98BACC91D483D09004A3F08 /* Order.m in Sources */,

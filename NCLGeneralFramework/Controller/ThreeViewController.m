@@ -18,9 +18,18 @@
     [super viewDidLoad];
 //    self.view.backgroundColor = [UIColor purpleColor];
     
+    
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
     self.tabBarController.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithimage:[UIImage imageNamed:@"MainTagSubIcon"] highImage:[UIImage imageNamed:@"MainTagSubIconClick"] target:self action:@selector(menuClick)];
 }
 
+- (void)viewWillDisappear:(BOOL)animated
+{
+    self.tabBarController.navigationItem.leftBarButtonItem = nil;
+}
 - (void)menuClick
 {
     FiveViewController * fiveVC = [[FiveViewController alloc] init];
