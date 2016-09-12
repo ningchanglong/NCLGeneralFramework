@@ -16,7 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(pushToAd) name:@"pushtoad" object:nil];
     self.title = @"书架";
     [self createUI];
 }
@@ -97,11 +96,5 @@
     }
 }
 
-- (void)pushToAd {
-    
-    AdvertiseViewController *adVc = [[AdvertiseViewController alloc] init];
-    [self.navigationController pushViewController:adVc animated:YES];
-    
-}
 
 @end
