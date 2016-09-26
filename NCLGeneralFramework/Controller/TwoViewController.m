@@ -24,7 +24,6 @@
 //        
 //    }];
     
-    
     UIButton *AlipayBtn = [[UIButton alloc] init];
 //    AlipayBtn.backgroundColor = [UIColor blueColor];
     [self.view addSubview:AlipayBtn];
@@ -48,7 +47,7 @@
 - (void)aliPayActin
 {
     //发起支付宝支付（客户端签名版本）
-    [AlipaySDK xwAdd_sendPayRequestWithOrderID:@"1221322213123131321" orderName:@"测试订单" orderDescription:nil orderPrice:@"0.01" orderNotifyUrl:@"www.test.com" appScheme:@"xwpaydemo" callbackConfig:^(BOOL successed) {
+    [AlipaySDK xwAdd_sendPayRequestWithOrderID:@"1221322213123131321" orderName:@"测试订单" orderDescription:nil orderPrice:@"0.01" orderNotifyUrl:@"www.test.com" appScheme:@"nclalipay" callbackConfig:^(BOOL successed) {
         
         //支付宝支付无论网页版本和app版本都统一在这里回调
         [self _xw_handleResult:successed];
@@ -66,5 +65,9 @@
     }
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    
+}
 
 @end

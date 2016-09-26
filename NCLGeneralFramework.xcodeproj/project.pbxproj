@@ -38,14 +38,9 @@
 		E90F240F1D47543F00A7BD6B /* AppDelegate+Pay.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F240B1D47543F00A7BD6B /* AppDelegate+Pay.m */; };
 		E90F24101D47543F00A7BD6B /* AppDelegate+RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F240D1D47543F00A7BD6B /* AppDelegate+RootViewController.m */; };
 		E90F24171D4754FA00A7BD6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E90F24191D4754FA00A7BD6B /* InfoPlist.strings */; };
-
 		E97CC67D1D6C7DC1005CD4E7 /* NCLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E97CC67C1D6C7DC1005CD4E7 /* NCLAlertView.m */; settings = {ASSET_TAGS = (); }; };
-		E981FF171D4EE2FE004D6DD5 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E981FF141D4EE2FE004D6DD5 /* UIImage+ImageEffects.m */; settings = {ASSET_TAGS = (); }; };
-		E981FF181D4EE2FE004D6DD5 /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E981FF161D4EE2FE004D6DD5 /* UIImageView+LBBlurredImage.m */; settings = {ASSET_TAGS = (); }; };
-
 		E981FF171D4EE2FE004D6DD5 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E981FF141D4EE2FE004D6DD5 /* UIImage+ImageEffects.m */; };
 		E981FF181D4EE2FE004D6DD5 /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E981FF161D4EE2FE004D6DD5 /* UIImageView+LBBlurredImage.m */; };
-
 		E98BABDC1D483BFF004A3F08 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98BABDB1D483BFF004A3F08 /* CoreMotion.framework */; };
 		E98BABDE1D483C08004A3F08 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98BABDD1D483C08004A3F08 /* CFNetwork.framework */; };
 		E98BABE01D483C1A004A3F08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98BABDF1D483C1A004A3F08 /* Foundation.framework */; };
@@ -75,6 +70,8 @@
 		E996A3A81D499B4B00342AEE /* CheckDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E996A3A71D499B4B00342AEE /* CheckDataTool.m */; };
 		E996A3AE1D49A58D00342AEE /* KeychainHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E996A3AB1D49A58D00342AEE /* KeychainHelper.m */; };
 		E996A3AF1D49A58D00342AEE /* KeychainIDFA.m in Sources */ = {isa = PBXBuildFile; fileRef = E996A3AD1D49A58D00342AEE /* KeychainIDFA.m */; };
+		E9F58BA61D924F1300B879B2 /* ImageTextButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F58BA51D924F1300B879B2 /* ImageTextButton.m */; settings = {ASSET_TAGS = (); }; };
+		E9F58BA91D92676C00B879B2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F58BA81D92676C00B879B2 /* BaseViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -288,6 +285,10 @@
 		E996A3AB1D49A58D00342AEE /* KeychainHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainHelper.m; sourceTree = "<group>"; };
 		E996A3AC1D49A58D00342AEE /* KeychainIDFA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainIDFA.h; sourceTree = "<group>"; };
 		E996A3AD1D49A58D00342AEE /* KeychainIDFA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainIDFA.m; sourceTree = "<group>"; };
+		E9F58BA41D924F1300B879B2 /* ImageTextButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTextButton.h; sourceTree = "<group>"; };
+		E9F58BA51D924F1300B879B2 /* ImageTextButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTextButton.m; sourceTree = "<group>"; };
+		E9F58BA71D92676C00B879B2 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		E9F58BA81D92676C00B879B2 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		FCDE28A135EB774CAC54D4CC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -494,6 +495,8 @@
 				E90F23E71D47536C00A7BD6B /* FourViewController.m */,
 				E90F23E81D47536C00A7BD6B /* FiveViewController.h */,
 				E90F23E91D47536C00A7BD6B /* FiveViewController.m */,
+				E9F58BA71D92676C00B879B2 /* BaseViewController.h */,
+				E9F58BA81D92676C00B879B2 /* BaseViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -689,13 +692,12 @@
 			children = (
 				E996A3A61D499B4B00342AEE /* CheckDataTool.h */,
 				E996A3A71D499B4B00342AEE /* CheckDataTool.m */,
-
 				E97CC67B1D6C7DC1005CD4E7 /* NCLAlertView.h */,
 				E97CC67C1D6C7DC1005CD4E7 /* NCLAlertView.m */,
-
 				C4DF66B21D55B7AE00B45AC4 /* FileTool.h */,
 				C4DF66B31D55B7AE00B45AC4 /* FileTool.m */,
-
+				E9F58BA41D924F1300B879B2 /* ImageTextButton.h */,
+				E9F58BA51D924F1300B879B2 /* ImageTextButton.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -916,6 +918,7 @@
 				E90F24071D47541600A7BD6B /* RootNavigationController.m in Sources */,
 				C4DF66B41D55B7AE00B45AC4 /* FileTool.m in Sources */,
 				E90F23A51D47504C00A7BD6B /* ViewController.m in Sources */,
+				E9F58BA61D924F1300B879B2 /* ImageTextButton.m in Sources */,
 				E98BACCD1D483D09004A3F08 /* MD5DataSigner.m in Sources */,
 				E90F23ED1D47536C00A7BD6B /* FourViewController.m in Sources */,
 				E996A3AE1D49A58D00342AEE /* KeychainHelper.m in Sources */,
@@ -926,6 +929,7 @@
 				E98BACD41D48405F004A3F08 /* AlipaySDK+Add.m in Sources */,
 				E98BACDD1D488D5E004A3F08 /* UIColor+Hex.m in Sources */,
 				E981FF181D4EE2FE004D6DD5 /* UIImageView+LBBlurredImage.m in Sources */,
+				E9F58BA91D92676C00B879B2 /* BaseViewController.m in Sources */,
 				E98BACCA1D483D09004A3F08 /* base64.m in Sources */,
 				E981FF171D4EE2FE004D6DD5 /* UIImage+ImageEffects.m in Sources */,
 				E98BACCF1D483D09004A3F08 /* openssl_wrapper.m in Sources */,

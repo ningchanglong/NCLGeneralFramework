@@ -47,7 +47,6 @@
     [backButton sizeToFit];
     backButton.contentEdgeInsets = UIEdgeInsetsMake(0, -20, 0, 0);
     [backButton addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
-    
     return  [[UIBarButtonItem alloc] initWithCustomView:backButton];
 }
 

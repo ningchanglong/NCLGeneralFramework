@@ -83,7 +83,7 @@
             NSDictionary *attr = [mgr attributesOfItemAtPath:filePath error:nil];
             
             // 获取文件尺寸
-            NSInteger fileSize = [attr fileSize];
+            NSInteger fileSize = (NSInteger)[attr fileSize];
             
             totalSize += fileSize;
         }
