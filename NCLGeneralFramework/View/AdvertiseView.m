@@ -74,7 +74,13 @@ static int const showtime = 5;
     
     [self dismiss];
     
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"pushtoad" object:nil userInfo:nil];
+    // 跳转到界面 => safari
+    NSURL *url = [NSURL URLWithString:@"http://baidu.com"];
+    UIApplication *app = [UIApplication sharedApplication];
+    if ([app canOpenURL:url]) {
+        [app openURL:url];
+    }
+//    [[NSNotificationCenter defaultCenter] postNotificationName:@"pushtoad" object:nil userInfo:nil];
 }
 
 - (void)countDown
