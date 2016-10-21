@@ -20,18 +20,28 @@
 
 #define CachePath [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject]
 
+// 开放平台登录https://open.weixin.qq.com的开发者中心获取APPID
+#define WX_APPID @"wxe6effc63c67bff3b"
+// 开放平台登录https://open.weixin.qq.com的开发者中心获取AppSecret。
+#define WX_APPSecret @"30500f99bbac21abc74a30db6d69e648"
+// 微信支付商户号
+#define MCH_ID  @"1389934402"
+// 安全校验码（MD5）密钥，商户平台登录账户和密码登录http://pay.weixin.qq.com
+// 平台设置的“API密钥”，为了安全，请设置为以数字和字母组成的32字符串。
+#define WX_PartnerKey @"RQNBG8W7fcXgKVspwbY39W8jkONfTxks"
+
 /**
  * 合作者身份ID
  */
-#define AliPayPartnerID @"2088221758658893"
+#define AliPayPartnerID @"2088421760802642"
 
 /**
  * 收款账号
  */
-#define AliPaySellerID @"aiouai@yeah.net"
+#define AliPaySellerID @"3174999182@qq.com"
 
 /**
  * 公钥
  */
-#define AliPayPartnerPrivKey @"MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBANexaHMLakMLQqkUCdsm5wq/+C3LEtTgbx0MoNqZ8T2Tcbjy63vdQFpByl9G29nDwCQ3skE8BmwyzYupdtcJx43zE5OEFGgNr92lQ4oNekelStzdF87R0oepwP+Q9pC/rbl4NSaW4SS12pJ+syObT+wY4h4oO8lK3zewrVSVpkdNAgMBAAECgYBcZkCTgCFeZTWCTvZF7q1tOn2ryGHh1d9jt2Q1IVtqAH7oNxBP+KE3yRVTqXxHFod6PG3dakRqF31cRhWF20ejqp+tdMTaFUoXl1VY8mmnefQZ5QL3Dwm62GsKFzOgojjlpE2Oh8DWb1I4gAfI9sMVCYkDmOrwTVvbm2U9S5ertQJBAP/AmAMouw6N7kcu6qz86Iuz0x/UgoxJcM7ecoTDQcjAXXF+TX6Xj8heG1xW4cEqVfZfKirWPAt+91bFC9mnnl8CQQDX5uH3ySLxN1r2DIXY9Pzz5fNJ6CiXVsGwAITEE4E+tjZiLe+wAXQG5K57FtkH4BZs74sVN+Aho6oMvU16O6HTAkEA/6ieDOJlg1ocLKpYy46SRD0ButrrmaM8kn9KCS9LDoxFnNN+UiLeB5UTUs5DJJ7Wic99zo6UPYWxaNrXSr/FjwJAeMzxcE/1IhxD49m75lmlUt490wN3+r2LH+waXQ9AyJLxONvU+ZjGj7jSO4LcKkDiq08YdeXOnWPSmNAuko7dCwJAFziKt0z0ZFYOGT2sbGi9S7WZxvYSGaY3wqMKX3OPJGnW9zZWU55R3R8Tyi+5K0KkGZiqOFhe2z+iMhLSUif8qg=="
+#define AliPayPartnerPrivKey @"MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAObt+qNgBL+d6cauXoP3hg6thSyA63oX4mD1xYx9X25q55k/NvsEJ3cwr+9LEJ6EOsA1xOyQtjzgI+ne9czw/2TO99x+AOKVRygX1slPXIBhHiQkb4SWClXtix4fgruQ5wumCwtxit7q+7nKx3J2dgQX9zCHmfTjxH82VnPXP2AjAgMBAAECgYEAo6RWLPm4w7R6WeFsdqWrqLELowrEUyOjtsPStoiNXKiC79Sc+GnsMYkd0ztlTn8zRsuTfXPav+6xZGQr2Iua3hM3KTFCec6pB37nU0NlbdIDCbzFo4AQ4DF8Bl2Hlp/12MPSGX881v9Coub0YyxodPUpGs3UPpfNOEeiDSkIzOECQQDzeV17wGjuB2lK/PZc3NoDPIok0sRIoZwsYDy4mXevE7jBrHN58zuBX3KTwkRAz/K4xWN/6KhIKENNhHlwbR9xAkEA8s9mIQ/0d9rDaheceybpGNhZAM/a2JgoesSPiOPDUdFV2TlnyYShYL+jnvzKO5qmVEkDgO/YhchHBIdyTmbW0wJBAKIk2DH7AKZMfz22W2eamQIAxkshpiBsqDIRYT7azY7mBmvMqhaz+pP8+bQXcxbqpc2RfuMHEVMEpVWxfKJ3ubECQDgeXUFo+Zy18BJWMLF59cfrQO7iG3eR+1EcmvwNgDgpxMi27tjxkYbV5BA75tXN0YGLeobTaFzLRDa0w2OBe0cCQQCN7y8s5Hbb1NsRFq+LS6C0qM3BMvVrPVrn9lYZV/soAhuydyzDyisJDYipyE0mernjT71rKS+mr8Tu9Sy6ZwjH"
 #endif /* Config_h */

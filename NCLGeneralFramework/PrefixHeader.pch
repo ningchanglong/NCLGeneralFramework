@@ -31,6 +31,7 @@
 #import <AFNetworking.h>
 #import <Availability.h>
 #import <AlipaySDK/AlipaySDK.h>
+#import "WXApi.h"
 #import "KeychainIDFA.h"
 #import "UIImageView+LBBlurredImage.h"
 #endif /* PrefixHeader_pch */

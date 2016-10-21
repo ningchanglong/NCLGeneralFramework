@@ -22,6 +22,11 @@
 
 + (UIBarButtonItem *)itemWithimage:(UIImage *)image selImage:(UIImage *)selImage target:(id)target action:(SEL)action;
 
+/**
+ * 创建导航栏按钮（纯文字）
+ */
+
++ (UIBarButtonItem *)itemWithTitle:(NSString *)title target:(id)target action:(SEL)action;
 
 /**
  * 设置统一的返回键

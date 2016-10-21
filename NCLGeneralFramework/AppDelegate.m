@@ -12,6 +12,7 @@
 #import "AppDelegate+Pay.h"
 #import "MainTabBarController.h"
 #import "AlipaySDK+Add.h"
+#import "WXApi+XWAdd.h"
 @interface AppDelegate ()
 
 @end
@@ -29,9 +30,8 @@
     [self.window makeKeyAndVisible];
 //    [[UIApplication sharedApplication] setStatusBarHidden:YES];
     [self addAdvertise];
-    
-
-    
+     //注册微信   
+    [WXApi registerApp:WX_APPID];
     return YES;
 }
 
@@ -39,6 +39,8 @@
     
     //处理支付宝回调信息
     [AlipaySDK xwAdd_handleOpenURL:url];
+    //处理微信回调信息
+    [WXApi xwAdd_handleOpenURL:url];
     return YES;
 }
 
